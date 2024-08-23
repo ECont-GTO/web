@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>ECONT</title>
+    <meta charset="UTF-8">
+    <style>
+        body {      
+            color: #008000; /* Texto verde */
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centra todo el texto */
+            margin: 0;
+            padding: 0;
+            background-image: url('Imagen/ECONT.jpeg'); /* Ruta de tu imagen de fondo */
+            background-repeat: repeat;
+        }
+
+        h1 { 
+            color: white;
+        } 
+        h2, h3, p, a, li {
+            color: #008000; /* Texto verde */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #008000; /* Fondo verde */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+        }
+
+        .cerrar-sesion {
+            display: inline-block;
+            margin: 20px 0;
+            color: #fff;
+            background-color: #008000; /* Fondo verde */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cerrar-sesion:hover {
+            background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+        }
+
+        .apartados, footer {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff; /* Fondo blanco para secciones */
+            max-width: 800px; /* Ancho máximo para centrado */
+        }
+
+        .Secciones {
+            flex: 1 1 300px; /* Permite que las secciones ocupen al menos 300px y crezcan */
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #006400; /* Texto verde oscuro */
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+        }
+
+        img.small {
+            width: 50%; /* Reduce el tamaño de la imagen al 50% del contenedor */
+        }
+
+        #read-button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #008000; /* Fondo verde */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        #read-button:hover {
+            background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            position: relative; /* Permite el uso de margin-left */
+            left: 0; /* Alinea el botón a la izquierda */
+            margin-left: 0; /* Alinea el botón a la izquierda */
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Municipios</h1>
+    </header>
+    <a href="inicio.php" class="back-button">Regresar</a> 
+    <nav>
+        <ul>
+            <div><img src="Imagen/estados.jpeg"></div>
+            <br>
+            <br>
+            <div class="Secciones"> 
+                <h3>A</h3>
+                <li><a href="abasolo.html">1. Abasolo</a></li>
+                <li><a href="acambaro.html">2. Acámbaro</a></li>
+                <li><a href="apaseoelalto.html">3. Apaseo el alto</a></li>
+                <li><a href="apaseoelgrande.html">4. Apaseo el grande</a></li>
+                <li><a href="artajea.html">5. Artajea</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>C</h3>
+                <li><a href="celaya.html">6. Celaya</a></li>
+                <li><a href="comonfort.html">7. Comonfort</a></li>
+                <li><a href="coroneo.html">8. Coroneo</a></li>
+                <li><a href="cortazar.html">9. Cortazar</a></li>
+                <li><a href="cueramaro.html">10. Cuerámaro</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>D</h3>
+                <li><a href="doctor.html">11. Doctor Mora</a></li>
+                <li><a href="dolores.html">12. Dolores Hidalgo</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>G</h3>
+                <li><a href="guanajuato.html">13. Guanajuato</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>H</h3>
+                <li><a href="huanimaro.html">14. Huanímaro</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>I</h3>
+                <li><a href="irapuato.html">15. Irapuato</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>J</h3>
+                <li><a href="jaral.html">16. Jaral del Progreso</a></li>
+                <li><a href="jerecuaro.html">17. Jerécuaro</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>L</h3>
+                <li><a href="leon.html">18. León</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>M</h3>
+                <li><a href="manuel.html">19. Manuel Doblado</a></li>
+                <li><a href="moroleon.html">20. Moroleón</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>O</h3>
+                <li><a href="ocampo.html">21. Ocampo</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>P</h3>
+                <li><a href="penjamo.html">22. Pénjamo</a></li>
+                <li><a href="pueblonuevo.html">23. Pueblo Nuevo</a></li>
+                <li><a href="purisima.html">24. Purísima del Rincón</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>R</h3>
+                <li><a href="romita.html">25. Romita</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>S</h3>
+                <li><a href="salamanca.html">26. Salamanca</a></li>
+                <li><a href="salvatierra.html">27. Salvatierra</a></li>
+                <li><a href="sandiego.html">28. San Diego de la Unión</a></li>
+                <li><a href="sanfelipe.html">29. San Felipe</a></li>
+                <li><a href="sanfrancisco.html">30. San Fco. del Rincón</a></li>
+                <li><a href="sanjose.html">31. San José Iturbide</a></li>
+                <li><a href="sanluis.html">32. San Luis de la Paz</a></li>
+                <li><a href="sanmiguel.html">33. San Miguel de Allende</a></li>
+                <li><a href="stacatarina.html">34. Sta. Catarina</a></li>
+                <li><a href="juventino.html">35. Sta. Cruz de Juventino R.</a></li>
+                <li><a href="santiago.html">36. Santiago Maravatio</a></li>
+                <li><a href="silao.html">37. Silao de la Victoria</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>T</h3>
+                <li><a href="tarandacuao.html">38. Tarandacuao</a></li>
+                <li><a href="tarimoro.html">39. Tarimoro</a></li>
+                <li><a href="tierrablanca.html">40. Tierra Blanca</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>U</h3>
+                <li><a href="uriangato.html">41. Uriangato</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>V</h3>
+                <li><a href="valle.html">42. Valle de Santiago</a></li>
+                <li><a href="victoria.html">43. Victoria</a></li>
+                <li><a href="villagran.html">44. Villagrán</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>X</h3>
+                <li><a href="xichu.html">45. Xichú</a></li>
+            </div>
+            <br>
+            <div class="Secciones"> 
+                <h3>Y</h3>
+                <li><a href="yuriria.html">46. Yuriria</a></li>
+            </div>
+        </ul>
+    </nav>
+    <footer>
+        <p>Esta página fue creada por alumnos del Centro de Bachillerato Tecnológico Industrial y de Servicios No. 171 con el fin de titularse como técnicos en programación.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    background-color: #ff0000; /* Fondo gris claro */
+    color: #008000; /* Texto verde */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra todo el texto */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, a, li {
+    color: #008000; /* Texto verde */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #008000; /* Fondo verde */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+}
+
+.cerrar-sesion {
+    display: inline-block;
+    margin: 20px 0;
+    color: #fff;
+    background-color: #008000; /* Fondo verde */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cerrar-sesion:hover {
+    background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+}
+
+.apartados, .Secciones, footer {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    max-width: 800px; /* Ancho máximo para centrado */
+}
+
+footer p {
+    font-size: 14px;
+    color: #006400; /* Texto verde oscuro */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.small {
+    width: 50%; /* Reduce el tamaño de la imagen al 50% del contenedor */
+}
+#read-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #008000; /* Fondo verde */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#read-button:hover {
+    background-color: #006400; /* Fondo verde oscuro al pasar el ratón */
+}

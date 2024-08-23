@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Ambientales en Ocampo, Guanajuato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('Imagen/ECONT.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav {
+            background-color: black; /* Fondo negro */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centra los elementos del menú */
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background-color: white; /* Fondo blanco al pasar el ratón o cuando se selecciona */
+            color: black; /* Color negro del texto al pasar el ratón o cuando se selecciona */
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto 20px auto; /* Añadir margen superior para compensar el menú fijo */
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #00796b;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #004d40;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #004d40;
+            font-size: 1.8em;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .content p {
+            text-align: justify;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+        }
+        .map-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 420px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #004d40;
+            color: #fff;
+            border-top: 2px solid #00796b;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="municipios.html">Municipios</a></li>
+            <li><a href="acciones.html">Acciones de Prevención</a></li>
+            <li><a href="sabias.html">¿Sabías que?</a></li>
+            <li><a href="CEAgua.html">Cuidar el Agua</a></li>
+            <li><a href="CEAire.html">Cuidar el Aire</a></li>
+            <li><a href="CeSuelo.html">Cuidar el Suelo</a></li>
+            <li><a href="otro.html">Otras</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Problemas Ambientales en Ocampo, Guanajuato</h1>
+        </header>
+        <div class="content">
+            <h2>Desafíos Ambientales en Ocampo</h2>
+            <p><strong>Calidad del Aire:</strong> En Ocampo, la calidad del aire no suele ser un problema significativo en comparación con las grandes ciudades industriales. Sin embargo, la quema de residuos agrícolas y el uso de maquinaria en la agricultura pueden contribuir a la emisión de partículas en suspensión y contaminantes atmosféricos. La vigilancia de la calidad del aire es menos frecuente que en áreas urbanas más grandes.</p>
+            
+            <p><strong>Recursos Hídricos:</strong> La gestión del agua es crucial en Ocampo, que es una región con actividades agrícolas predominantes. La sobreexplotación de acuíferos y la contaminación de fuentes de agua debido a prácticas agrícolas y el uso de fertilizantes y pesticidas pueden ser preocupaciones. Es importante para la comunidad local implementar prácticas de manejo sostenible del agua y conservación de recursos hídricos.</p>
+            
+            <p><strong>Uso del Suelo:</strong> La agricultura es la principal actividad económica en Ocampo, lo que implica un uso extensivo del suelo. Las prácticas agrícolas, si no se gestionan adecuadamente, pueden llevar a la erosión del suelo y la degradación. La implementación de técnicas agrícolas sostenibles es vital para preservar la calidad del suelo y prevenir la pérdida de tierras fértiles.</p>
+            
+            <p><strong>Biodiversidad:</strong> Ocampo, siendo una área rural, alberga una variedad de flora y fauna. La expansión agrícola y otros desarrollos pueden afectar los hábitats naturales y la biodiversidad local. La protección de áreas naturales y la conservación de especies son importantes para mantener el equilibrio ecológico en la región.</p>
+            
+            <p><strong>Gestión de Residuos:</strong> En Ocampo, como en muchas áreas rurales, la gestión de residuos puede ser un reto. La infraestructura para el manejo de desechos puede ser limitada, lo que podría llevar a la acumulación de residuos y problemas ambientales asociados. Mejorar la recolección y disposición de residuos es clave para la salud ambiental del municipio.</p>
+
+            <p>Para información más detallada y actualizada, se recomienda consultar los reportes y estudios específicos de organismos gubernamentales y organizaciones ambientales locales, así como contactar con las autoridades municipales de Ocampo.</p>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Ocampo,+Guanajuato&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Ocampo Sustentable. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

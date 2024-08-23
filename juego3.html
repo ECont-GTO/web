@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Atrapa la Basura</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+        background-image: url('Imagen/ECONT.jpeg'); 
+        background-repeat: repeat;
+        }
+        .Secciones {
+            margin: 80px auto 20px auto; /* Añadir margen superior para compensar el menú fijo */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ffffff; /* Fondo blanco para secciones */
+            max-width: 800px; /* Ancho máximo para centrado */
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+        #game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <a href="inicio.php" class="back-button">Regresar</a> 
+    <div class="Secciones">
+        <h1>Juego de Atrapa la Basura</h1>
+        <div id="game-container">
+            <canvas id="gameCanvas" width="480" height="320"></canvas>
+        </div>
+    </div>
+    <script src="catch.js"></script>
+</body>
+</html>

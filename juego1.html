@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Imagen/ECONT.jpeg'); 
+    background-repeat: repeat;
+    padding: 20px;
+}
+h1{
+    color: whitesmoke;
+}
+
+#quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#choices button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: #45a049;
+}
+
+#next-btn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-btn:hover {
+    background-color: #007BB5;
+}
+.back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas sobre Contaminación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="inicio.php" class="back-button">Regresar</a> 
+    <h1>Juego de Preguntas sobre Contaminación</h1>
+    <div id="quiz-container">
+        <div id="question"></div>
+        <div id="choices"></div>
+        <button id="next-btn" onclick="nextQuestion()">Siguiente</button>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

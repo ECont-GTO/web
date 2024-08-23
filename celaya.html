@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situación Ambiental en Celaya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('Imagen/ECONT.jpeg');
+            background-repeat: repeat;
+            background-size: cover;
+        }
+        nav {
+            background-color: #00bcd4; /* Azul claro */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #0097a7; /* Azul más oscuro */
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #00796b; /* Verde azulado */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #004d40; /* Verde azulado oscuro */
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #004d40;
+            font-size: 1.8em;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .content p {
+            text-align: justify;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+        }
+        .map-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 420px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #004d40;
+            color: #fff;
+            border-top: 2px solid #00796b;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="municipios.html">Municipios</a></li>
+            <li><a href="acciones.html">Acciones de Prevención</a></li>
+            <li><a href="sabias.html">¿Sabías que?</a></li>
+            <li><a href="CEAgua.html">Cuidar el Agua</a></li>
+            <li><a href="CEAire.html">Cuidar el Aire</a></li>
+            <li><a href="CeSuelo.html">Cuidar el Suelo</a></li>
+            <li><a href="otro.html">Otras</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Situación Ambiental en Celaya</h1>
+        </header>
+        <div class="content">
+            <h2>Contaminación del Aire</h2>
+            <p>La situación ambiental en Celaya, Guanajuato, enfrenta varios desafíos significativos. En primer lugar, el municipio es uno de los más afectados por la contaminación del aire en el estado, especialmente por partículas PM10, que provienen principalmente del polvo levantado en calles sin pavimentar, la erosión del suelo, y las actividades de construcción. Esta situación coloca a Celaya en una posición crítica dentro del corredor industrial de Guanajuato, con varios días al año en los que la calidad del aire excede los límites permitidos.</p>
+
+            <h2>Escasez de Agua</h2>
+            <p>Además, la ciudad enfrenta una severa sequía, lo que ha provocado una disminución en la presión del agua en los hogares debido al abatimiento de los niveles de los pozos. Esto se ve agravado por la baja precipitación, que ha reducido significativamente el almacenamiento de agua en los embalses de la región. Las autoridades locales han instado a la población a extremar el cuidado del agua, promoviendo su uso responsable y el reuso en actividades domésticas.</p>
+
+            <h2>Desafíos de Sostenibilidad</h2>
+            <p>Estas condiciones reflejan un entorno desafiante para la sostenibilidad y la calidad de vida en Celaya, requiriendo tanto acciones inmediatas como una planificación a largo plazo para mitigar estos problemas ambientales.</p>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=Celaya&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Celaya. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

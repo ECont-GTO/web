@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Ambientales en León, Guanajuato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('Imagen/ECONT.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav {
+            background-color: rgb(145, 255, 0); /* Fondo verde */
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centra los elementos del menú */
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: rgb(59, 90, 0); /* Fondo verde oscuro al pasar el ratón */
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto 20px auto; /* Añadir margen superior para compensar el menú fijo */
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #00796b;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #004d40;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #004d40;
+            font-size: 1.8em;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .content p {
+            text-align: justify;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+        }
+        .map-container {
+            margin: 20px auto;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 420px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #004d40;
+            color: #fff;
+            border-top: 2px solid #00796b;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="municipios.html">Municipios</a></li>
+            <li><a href="acciones.html">Acciones de Prevención</a></li>
+            <li><a href="sabias.html">¿Sabías que?</a></li>
+            <li><a href="CEAgua.html">Cuidar el Agua</a></li>
+            <li><a href="CEAire.html">Cuidar el Aire</a></li>
+            <li><a href="CeSuelo.html">Cuidar el Suelo</a></li>
+            <li><a href="otro.html">Otras</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Problemas Ambientales en León, Guanajuato</h1>
+        </header>
+        <div class="content">
+            <h2>Desafíos Ambientales en León</h2>
+            <p><strong>Calidad del Aire:</strong> León enfrenta problemas de contaminación del aire debido al tráfico vehicular y a las emisiones de la industria. La calidad del aire puede verse afectada por la presencia de partículas en suspensión y contaminantes atmosféricos. Las autoridades locales suelen monitorear la calidad del aire y tomar medidas para mitigar los impactos.</p>
+            
+            <p><strong>Recursos Hídricos:</strong> La ciudad enfrenta desafíos relacionados con la gestión del agua, como la sobreexplotación de acuíferos y la contaminación de fuentes hídricas. La urbanización y el crecimiento industrial también pueden influir en la disponibilidad y calidad del agua.</p>
+            
+            <p><strong>Uso del Suelo:</strong> León ha experimentado un rápido crecimiento urbano e industrial. Esto puede llevar a la expansión de áreas construidas, la pérdida de espacios verdes y la conversión de terrenos agrícolas en zonas urbanas. La planificación urbana y la gestión del uso del suelo son cruciales para mitigar estos impactos.</p>
+            
+            <p><strong>Biodiversidad:</strong> Aunque León es una ciudad en gran parte urbanizada, es importante conservar áreas verdes y parques para preservar la biodiversidad local y ofrecer espacios de recreación a los habitantes.</p>
+            
+            <p><strong>Gestión de Residuos:</strong> La gestión de residuos sólidos es una preocupación en León, especialmente en relación con el tratamiento y disposición de desechos industriales y urbanos. La ciudad ha implementado programas de reciclaje y estrategias para mejorar la gestión de residuos.</p>
+
+            <p>Para información más detallada y actualizada sobre la situación ambiental en León, puedes consultar informes de las autoridades locales, estudios académicos y organizaciones ambientales que trabajen en la región.</p>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://maps.google.com/maps?q=León,+Guanajuato&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Abasolo Sustentable. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
